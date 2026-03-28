@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ishan0410"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/ishan-madhani"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:ishan.madhani@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/ishan0410"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=ishan0410&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" />
@@ -102,7 +102,7 @@ Built and deployed a **churn prediction system** on AWS infrastructure with opti
 <a href="https://github.com/ishan0410/document-intelligence-pipeline">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ishan0410&repo=document-intelligence-pipeline&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
 </a>
-<a href="https://github.com/ishan0410/waste-image-classifier">
+<a href="https://github.com/ishan0410/Transfer-Learning-for-Waste-Image-Classification">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ishan0410&repo=waste-image-classifier&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
 </a>
 
@@ -158,10 +158,6 @@ Systematic transfer learning benchmark across 5 CNN architectures for multi-clas
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ishan0410&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" />
   <img width="49%" src="https://streak-stats.demolab.com/?user=ishan0410&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-</p>
-
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ishan0410&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff" />
 </p>
 
 ---
