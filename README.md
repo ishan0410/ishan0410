@@ -136,66 +136,91 @@ Built and deployed a **churn prediction system** on AWS infrastructure with opti
 
 ### Featured Projects
 
+<table>
+<tr>
+<td width="50%">
+
+<h4 align="center"><a href="https://github.com/ishan0410/AI-Research-Agent">🤖 AI-Research-Agent</a></h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI_Agents-FF6F00?style=flat-square&logoColor=white" />
+</p>
+
+Autonomous AI research agent that takes a topic, searches the web, synthesizes information from multiple sources, and generates comprehensive research reports — all without human intervention.
+
+`Multi-Agent` `Web Scraping` `LLM Orchestration` `Auto-Summarization`
+
+</td>
+<td width="50%">
+
+<h4 align="center"><a href="https://github.com/ishan0410/RAG-based-quiz-generator">📚 RAG-based-quiz-generator</a></h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+</p>
+
+End-to-end RAG pipeline: PDF ingestion → chunking → dual embedding (FAISS dense + TF-IDF sparse) → hybrid retrieval → LLM generation of structured quiz questions.
+
+`RAG Pipeline` `Vector Search` `Hybrid Retrieval` `Semantic Chunking`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<h4 align="center"><a href="https://github.com/ishan0410/adaptive-ticket-pricing">🎟️ adaptive-ticket-pricing</a></h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/ML-FF6F00?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Analytics-4285F4?style=flat-square&logoColor=white" />
+</p>
+
+Dynamic pricing engine that adjusts ticket prices in real-time based on demand signals, historical patterns, and market conditions using ML-driven prediction models.
+
+`Dynamic Pricing` `Demand Forecasting` `Real-Time Analytics` `Optimization`
+
+</td>
+<td width="50%">
+
+<h4 align="center"><a href="https://github.com/ishan0410/Transfer-Learning-for-Waste-Image-Classification">♻️ Waste-Image-Classification</a></h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+</p>
+
+Benchmarked 5 CNN architectures for multi-class waste sorting under identical training protocols.
+
+| Model | F1 | AUC |
+|-------|-----|-----|
+| **ResNet101** | **0.768** | **0.971** |
+
+`Transfer Learning` `Model Benchmarking` `Computer Vision`
+
+</td>
+</tr>
+</table>
+
 <details>
-<summary><b>🔷 document-intelligence-pipeline</b> — End-to-end RAG system</summary>
+<summary><b>🔷 More Projects</b></summary>
 <br>
 
-```
-PDF Upload → Text Extraction → Chunking → Embedding ─┬─ FAISS (dense)
-                                                      └─ TF-IDF (sparse)
-                                                             │
-                                                      Hybrid Retrieval
-                                                             │
-                                                      LLM Generation → Structured Output
-```
-
-**What it does:** Ingests raw PDFs, builds a semantic retrieval index using dual embedding (dense + sparse), and generates structured assessments via LLM generation with output parsing.
-
-**Why hybrid retrieval:** Dense embeddings alone miss keyword-exact matches. Sparse alone misses semantic similarity. Combining both gives significantly better retrieval precision.
-
-**Stack:** `Python` `LangChain` `FAISS` `TF-IDF` `Gradio` `OpenAI API`
-
-**Design:** Each pipeline stage (chunker, embedder, retriever, generator) is independently testable and swappable.
-
-</details>
-
-<details>
-<summary><b>🔷 Transfer-Learning-for-Waste-Image-Classification</b> — CNN architecture benchmark</summary>
-<br>
-
-Systematic transfer learning benchmark across 5 CNN architectures for multi-class waste sorting under identical training protocols.
-
-| Architecture | F1 Score | AUC | Status |
-|-------------|----------|-----|--------|
-| **ResNet101** | **0.768** | **0.971** | **✅ Best** |
-| VGG16 | — | — | Tested |
-| EfficientNet-B0 | — | — | Tested |
-| DenseNet121 | — | — | Tested |
-| MobileNetV2 | — | — | Tested |
-
-**Key insight:** Deeper architectures (ResNet101) significantly outperformed lightweight models on this dataset due to fine-grained texture differences between waste categories.
-
-**Stack:** `TensorFlow` `OpenCV` `Scikit-learn` `Matplotlib`
-
-</details>
-
-<details>
-<summary><b>🔷 RealEstatePricePrediction</b> — ML-powered price estimation</summary>
-<br>
-
-End-to-end machine learning pipeline for real estate price prediction with feature engineering, model selection, and evaluation.
-
-**Stack:** `Python` `Scikit-learn` `Pandas` `NumPy`
-
-</details>
-
-<details>
-<summary><b>🔷 SentimentAnalysis</b> — NLP text classification</summary>
-<br>
-
-Sentiment classification system using NLP techniques for text analysis and opinion mining.
-
-**Stack:** `Python` `NLP` `Scikit-learn`
+| Project | Description | Stack |
+|---------|------------|-------|
+| [**RealEstatePricePrediction**](https://github.com/ishan0410/RealEstatePricePrediction) | ML pipeline for real estate price estimation with feature engineering & model selection | `Scikit-learn` `Pandas` `NumPy` |
+| [**SentimentAnalysis**](https://github.com/ishan0410/SentimentAnalysis) | NLP-based sentiment classification for text analysis & opinion mining | `Python` `NLP` `Scikit-learn` |
+| [**Air-Quality**](https://github.com/ishan0410/Air-Quality) | Environmental data analysis & air quality prediction system | `Python` `Data Analysis` `Visualization` |
+| [**Intelligent_Tour_Guide**](https://github.com/ishan0410/Intelligent_Tour_Guide) | AI-powered intelligent tour recommendation system | `Python` `ML` `NLP` |
+| [**News_headlines**](https://github.com/ishan0410/News_headlines) | Real-time news aggregation & headline tracking application | `TypeScript` `API` `Web` |
 
 </details>
 
