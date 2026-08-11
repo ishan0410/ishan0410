@@ -10,16 +10,16 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&height=45&lines=Building+ML+Pipelines+at+Scale;Shipping+Production+Backend+Systems;MS+Computer+Science+%40+USC+%E2%80%992026" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&height=45&lines=Building+Full+Stack+Applications;React+and+TypeScript+Interfaces;Scalable+Backend+Systems+and+APIs;MS+Computer+Science+%40+USC+%E2%80%992026" alt="Typing SVG" />
 </p>
 
 ---
 
 ### About Me
 
-MS Computer Science @ **USC** (2026). I build backend systems and ML pipelines that run in production — LLM extraction pipelines processing thousands of financial documents, churn prediction models serving **1.2M+ users** on AWS, and retrieval systems backed by vector search.
+MS Computer Science @ USC (2026). I build full stack applications, from React and TypeScript interfaces to the systems behind them: an internal dashboard that turned thousands of parsed financial documents into something analysts could actually work with, a Next.js news aggregator with server side rendering and accessible components, and churn prediction models serving 1.2M+ users on AWS.
 
-Currently focused on **backend infrastructure**, **API design**, and **applied ML systems**.
+Currently focused on **frontend architecture**, **backend infrastructure**, **API design**, and **applied ML systems**.
 
 ---
 
@@ -36,6 +36,15 @@ Currently focused on **backend infrastructure**, **API design**, and **applied M
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white)
+![Web Accessibility](https://img.shields.io/badge/Web_Accessibility-663399?style=for-the-badge&logoColor=white)
+![Responsive Design](https://img.shields.io/badge/Responsive_Design-38BDF8?style=for-the-badge&logoColor=white)
 
 **ML / AI Frameworks**
 
@@ -256,7 +265,7 @@ Solved **500+** problems across platforms
 
 Teaching Assistant @ **USC**
 
-Mentored **90+** students in data analysis, algorithms, and problem solving
+Mentored **270+** students in data analysis, algorithms, and problem solving
 
 </td>
 </tr>
