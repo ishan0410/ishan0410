@@ -342,7 +342,6 @@ Mentored **270+** students in data analysis, algorithms, and problem solving
 
 <p align="center">
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ishan0410&theme=github_dark" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=ishan0410&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
 </p>
 
 ---
